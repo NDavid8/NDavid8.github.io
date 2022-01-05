@@ -1,0 +1,121 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    
+}
+header {
+    background-image: linear-gradient(to bottom, #ffff00, #ff0000);
+    color: #000000;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+}
+nav {
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 105px;
+}
+main {
+    padding: 1px 20px 20px 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+}
+h2 {
+    color: #000000;
+}
+dt {
+    color: #000000;
+}
+#car {
+    height: 300px;
+    background-image: url(car-detailing-gtr.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 160px;
+}
+#wrapper {
+    background-image: linear-gradient(to bottom, #ff0000, #ffff00);
+    margin-left: auto;
+    margin-right: auto;
+        width: 80%;
+        min-width: 960px;
+        max-width: 2048px;
+        box-shadow: 3px 3px 3px 3px #333333;
+        border: 1px solid #000033;
+}
+footer{
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+    margin-left: 190px;
+    background-color: #ff0000;
+}
+header a:link {
+    text-decoration: none;
+    color: #000000;
+}
+header a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+header a:hover {
+    text-decoration: none;
+    color: #ffff00;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link {
+    color: #ff0000;
+}
+nav a:visited {
+    color: #ff0000;
+}
+nav a:hover {
+    color: #ffff00;
+}
+input, textarea {
+    display:block;
+    margin-bottom: 20px;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input[type="submit"]{
+    margin-left: 140px;
+}
+h2{
+    text-align: left;
+}
+h3{
+    text-align: left;
+}
+table {
+    border: 2px solid #ff0000;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #000000;
+}
+th {
+    padding: 0.5em;
+    border: 2px solid #000000;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd){
+    background-color: #ff0000;
+}
